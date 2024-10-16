@@ -6,25 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A42CA0672CC03EAB00AB3AB6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42CA0662CC03EAB00AB3AB6 /* Metal.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A42CA0592CC03CF900AB3AB6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A42CA05B2CC03CF900AB3AB6 /* Lesson2ImgClassficationPorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson2ImgClassficationPorting; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42CA0662CC03EAB00AB3AB6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A42CA06C2CC0425B00AB3AB6 /* Exceptions for "Lesson2ImgClassficationPorting" folder in "Copy Files" phase from "Lesson2ImgClassficationPorting" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A42CA0592CC03CF900AB3AB6 /* CopyFiles */;
+			membershipExceptions = (
+				sign_mnist_train.csv,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A42CA05D2CC03CF900AB3AB6 /* Lesson2ImgClassficationPorting */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A42CA06C2CC0425B00AB3AB6 /* Exceptions for "Lesson2ImgClassficationPorting" folder in "Copy Files" phase from "Lesson2ImgClassficationPorting" target */,
+			);
 			path = Lesson2ImgClassficationPorting;
 			sourceTree = "<group>";
 		};
@@ -35,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42CA0672CC03EAB00AB3AB6 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A42CA05D2CC03CF900AB3AB6 /* Lesson2ImgClassficationPorting */,
+				A42CA0652CC03EAB00AB3AB6 /* Frameworks */,
 				A42CA05C2CC03CF900AB3AB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +75,14 @@
 				A42CA05B2CC03CF900AB3AB6 /* Lesson2ImgClassficationPorting */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A42CA0652CC03EAB00AB3AB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42CA0662CC03EAB00AB3AB6 /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
